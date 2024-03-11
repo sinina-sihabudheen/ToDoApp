@@ -1,6 +1,6 @@
 .todo-container{
     background: black;
-    width: 70vw;
+    width: 50vw;
     margin: 5em auto;
     border-radius: 10px;
     padding: 15px;
@@ -8,7 +8,8 @@
 }
 .header{
     font-size: 2em;
-    text-align: center
+    font-weight: bolder;
+    text-align: center;
 }
 .input-container{
     background: black;
@@ -60,3 +61,36 @@
     float: right;
     background-color: rgb(159, 179, 179);
 }
+.edit-btn{
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+    float: right;
+    background-color: rgb(159, 179, 179);
+}
+.done-btn{
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+    float: right;
+    background-color: rgb(159, 179, 179);
+}
+.list-tasks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task-title {
+    flex-grow: 1;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
